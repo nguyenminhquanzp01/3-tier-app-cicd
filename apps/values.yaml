@@ -1,8 +1,3 @@
-image:
-  repository: nguyenminhquanzp01/3-tier-app
-  tag: "10"
-  pullPolicy: IfNotPresent
-
-service:
-  type: NodePort
-  port: 30000
+backend:
+  image:
+    tag: "7"   # 👈 Tag mới bạn vừa build và push lên Docker Hub
