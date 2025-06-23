@@ -11,7 +11,7 @@ spec:
     path: my-app
     helm:
       valueFiles:
-        - https://raw.githubusercontent.com/nguyenminhquanzp01/3-tier-app-cicd/main/values.yaml
+        - https://raw.githubusercontent.com/nguyenminhquanzp01/3-tier-app-cicd/refs/heads/main/apps/values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: default
