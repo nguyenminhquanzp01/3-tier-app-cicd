@@ -8,10 +8,10 @@ spec:
   source:
     repoURL: https://github.com/nguyenminhquanzp01/3-tier-app.git
     targetRevision: main
-    path: my-app               # ⬅️ thư mục chứa Chart.yaml trong repo 3-tier-app
+    path: my-app
     helm:
-    valueFiles:
-      - https://raw.githubusercontent.com/nguyenminhquanzp01/3-tier-app-cicd/main/values.yaml
+      valueFiles:
+        - https://raw.githubusercontent.com/nguyenminhquanzp01/3-tier-app-cicd/main/values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: default
