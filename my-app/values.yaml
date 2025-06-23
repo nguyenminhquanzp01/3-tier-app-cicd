@@ -1,0 +1,4 @@
+backend:
+  image:
+    repository: nguyenminhquanzp01/3-tier-app
+    tag: "1.1"

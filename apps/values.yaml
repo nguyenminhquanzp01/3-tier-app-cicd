@@ -1,3 +1,0 @@
-backend:
-  image:
-    tag: "11"   # 👈 Tag mới bạn vừa build và push lên Docker Hub
