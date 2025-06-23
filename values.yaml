@@ -1,1 +1,8 @@
+image:
+  repository: nguyenminhquanzp01/3-tier-app
+  tag: "1.0"
+  pullPolicy: IfNotPresent
 
+service:
+  type: NodePort
+  port: 30000
