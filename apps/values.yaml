@@ -1,6 +1,6 @@
 image:
   repository: nguyenminhquanzp01/3-tier-app
-  tag: "7"
+  tag: "10"
   pullPolicy: IfNotPresent
 
 service:
